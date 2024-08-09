@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEDF4CF52C66DB2D00C705DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDF4CF42C66DB2D00C705DE /* AppDelegate.swift */; };
+		CEDF4CF72C66DB2D00C705DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDF4CF62C66DB2D00C705DE /* ViewController.swift */; };
+		CEDF4CF92C66DB2F00C705DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEDF4CF82C66DB2F00C705DE /* Assets.xcassets */; };
+		CEDF4CFC2C66DB2F00C705DE /* Base in Resources */ = {isa = PBXBuildFile; fileRef = CEDF4CFB2C66DB2F00C705DE /* Base */; };
+		CEDF4D072C66DB2F00C705DE /* DrewLocalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDF4D062C66DB2F00C705DE /* DrewLocalTests.swift */; };
+		CEDF4D112C66DB2F00C705DE /* DrewLocalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDF4D102C66DB2F00C705DE /* DrewLocalUITests.swift */; };
+		CEDF4D132C66DB2F00C705DE /* DrewLocalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDF4D122C66DB2F00C705DE /* DrewLocalUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEDF4D032C66DB2F00C705DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEDF4CE92C66DB2D00C705DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEDF4CF02C66DB2D00C705DE;
+			remoteInfo = DrewLocal;
+		};
+		CEDF4D0D2C66DB2F00C705DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEDF4CE92C66DB2D00C705DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEDF4CF02C66DB2D00C705DE;
+			remoteInfo = DrewLocal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEDF4CF12C66DB2D00C705DE /* DrewLocal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrewLocal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDF4CF42C66DB2D00C705DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEDF4CF62C66DB2D00C705DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEDF4CF82C66DB2F00C705DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEDF4CFB2C66DB2F00C705DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEDF4CFD2C66DB2F00C705DE /* DrewLocal.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DrewLocal.entitlements; sourceTree = "<group>"; };
+		CEDF4D022C66DB2F00C705DE /* DrewLocalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrewLocalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDF4D062C66DB2F00C705DE /* DrewLocalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrewLocalTests.swift; sourceTree = "<group>"; };
+		CEDF4D0C2C66DB2F00C705DE /* DrewLocalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrewLocalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDF4D102C66DB2F00C705DE /* DrewLocalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrewLocalUITests.swift; sourceTree = "<group>"; };
+		CEDF4D122C66DB2F00C705DE /* DrewLocalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrewLocalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEDF4CEE2C66DB2D00C705DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDF4CFF2C66DB2F00C705DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDF4D092C66DB2F00C705DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEDF4CE82C66DB2D00C705DE = {
+			isa = PBXGroup;
+			children = (
+				CEDF4CF32C66DB2D00C705DE /* DrewLocal */,
+				CEDF4D052C66DB2F00C705DE /* DrewLocalTests */,
+				CEDF4D0F2C66DB2F00C705DE /* DrewLocalUITests */,
+				CEDF4CF22C66DB2D00C705DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEDF4CF22C66DB2D00C705DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF4CF12C66DB2D00C705DE /* DrewLocal.app */,
+				CEDF4D022C66DB2F00C705DE /* DrewLocalTests.xctest */,
+				CEDF4D0C2C66DB2F00C705DE /* DrewLocalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEDF4CF32C66DB2D00C705DE /* DrewLocal */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF4CF42C66DB2D00C705DE /* AppDelegate.swift */,
+				CEDF4CF62C66DB2D00C705DE /* ViewController.swift */,
+				CEDF4CF82C66DB2F00C705DE /* Assets.xcassets */,
+				CEDF4CFA2C66DB2F00C705DE /* Main.storyboard */,
+				CEDF4CFD2C66DB2F00C705DE /* DrewLocal.entitlements */,
+			);
+			path = DrewLocal;
+			sourceTree = "<group>";
+		};
+		CEDF4D052C66DB2F00C705DE /* DrewLocalTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF4D062C66DB2F00C705DE /* DrewLocalTests.swift */,
+			);
+			path = DrewLocalTests;
+			sourceTree = "<group>";
+		};
+		CEDF4D0F2C66DB2F00C705DE /* DrewLocalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF4D102C66DB2F00C705DE /* DrewLocalUITests.swift */,
+				CEDF4D122C66DB2F00C705DE /* DrewLocalUITestsLaunchTests.swift */,
+			);
+			path = DrewLocalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEDF4CF02C66DB2D00C705DE /* DrewLocal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEDF4D162C66DB2F00C705DE /* Build configuration list for PBXNativeTarget "DrewLocal" */;
+			buildPhases = (
+				CEDF4CED2C66DB2D00C705DE /* Sources */,
+				CEDF4CEE2C66DB2D00C705DE /* Frameworks */,
+				CEDF4CEF2C66DB2D00C705DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrewLocal;
+			productName = DrewLocal;
+			productReference = CEDF4CF12C66DB2D00C705DE /* DrewLocal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEDF4D012C66DB2F00C705DE /* DrewLocalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEDF4D192C66DB2F00C705DE /* Build configuration list for PBXNativeTarget "DrewLocalTests" */;
+			buildPhases = (
+				CEDF4CFE2C66DB2F00C705DE /* Sources */,
+				CEDF4CFF2C66DB2F00C705DE /* Frameworks */,
+				CEDF4D002C66DB2F00C705DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEDF4D042C66DB2F00C705DE /* PBXTargetDependency */,
+			);
+			name = DrewLocalTests;
+			productName = DrewLocalTests;
+			productReference = CEDF4D022C66DB2F00C705DE /* DrewLocalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEDF4D0B2C66DB2F00C705DE /* DrewLocalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEDF4D1C2C66DB2F00C705DE /* Build configuration list for PBXNativeTarget "DrewLocalUITests" */;
+			buildPhases = (
+				CEDF4D082C66DB2F00C705DE /* Sources */,
+				CEDF4D092C66DB2F00C705DE /* Frameworks */,
+				CEDF4D0A2C66DB2F00C705DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEDF4D0E2C66DB2F00C705DE /* PBXTargetDependency */,
+			);
+			name = DrewLocalUITests;
+			productName = DrewLocalUITests;
+			productReference = CEDF4D0C2C66DB2F00C705DE /* DrewLocalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEDF4CE92C66DB2D00C705DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					CEDF4CF02C66DB2D00C705DE = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					CEDF4D012C66DB2F00C705DE = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = CEDF4CF02C66DB2D00C705DE;
+					};
+					CEDF4D0B2C66DB2F00C705DE = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = CEDF4CF02C66DB2D00C705DE;
+					};
+				};
+			};
+			buildConfigurationList = CEDF4CEC2C66DB2D00C705DE /* Build configuration list for PBXProject "DrewLocal" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEDF4CE82C66DB2D00C705DE;
+			productRefGroup = CEDF4CF22C66DB2D00C705DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEDF4CF02C66DB2D00C705DE /* DrewLocal */,
+				CEDF4D012C66DB2F00C705DE /* DrewLocalTests */,
+				CEDF4D0B2C66DB2F00C705DE /* DrewLocalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEDF4CEF2C66DB2D00C705DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDF4CF92C66DB2F00C705DE /* Assets.xcassets in Resources */,
+				CEDF4CFC2C66DB2F00C705DE /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDF4D002C66DB2F00C705DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDF4D0A2C66DB2F00C705DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEDF4CED2C66DB2D00C705DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDF4CF72C66DB2D00C705DE /* ViewController.swift in Sources */,
+				CEDF4CF52C66DB2D00C705DE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDF4CFE2C66DB2F00C705DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDF4D072C66DB2F00C705DE /* DrewLocalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDF4D082C66DB2F00C705DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDF4D132C66DB2F00C705DE /* DrewLocalUITestsLaunchTests.swift in Sources */,
+				CEDF4D112C66DB2F00C705DE /* DrewLocalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEDF4D042C66DB2F00C705DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEDF4CF02C66DB2D00C705DE /* DrewLocal */;
+			targetProxy = CEDF4D032C66DB2F00C705DE /* PBXContainerItemProxy */;
+		};
+		CEDF4D0E2C66DB2F00C705DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEDF4CF02C66DB2D00C705DE /* DrewLocal */;
+			targetProxy = CEDF4D0D2C66DB2F00C705DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEDF4CFA2C66DB2F00C705DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEDF4CFB2C66DB2F00C705DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEDF4D142C66DB2F00C705DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEDF4D152C66DB2F00C705DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		CEDF4D172C66DB2F00C705DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DrewLocal/DrewLocal.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56FW88WGZ7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.drespackages.DrewLocal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CEDF4D182C66DB2F00C705DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DrewLocal/DrewLocal.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56FW88WGZ7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.drespackages.DrewLocal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		CEDF4D1A2C66DB2F00C705DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56FW88WGZ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.drespackages.DrewLocalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrewLocal.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DrewLocal";
+			};
+			name = Debug;
+		};
+		CEDF4D1B2C66DB2F00C705DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56FW88WGZ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.drespackages.DrewLocalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrewLocal.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DrewLocal";
+			};
+			name = Release;
+		};
+		CEDF4D1D2C66DB2F00C705DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56FW88WGZ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.drespackages.DrewLocalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = DrewLocal;
+			};
+			name = Debug;
+		};
+		CEDF4D1E2C66DB2F00C705DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56FW88WGZ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.drespackages.DrewLocalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = DrewLocal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEDF4CEC2C66DB2D00C705DE /* Build configuration list for PBXProject "DrewLocal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDF4D142C66DB2F00C705DE /* Debug */,
+				CEDF4D152C66DB2F00C705DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEDF4D162C66DB2F00C705DE /* Build configuration list for PBXNativeTarget "DrewLocal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDF4D172C66DB2F00C705DE /* Debug */,
+				CEDF4D182C66DB2F00C705DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEDF4D192C66DB2F00C705DE /* Build configuration list for PBXNativeTarget "DrewLocalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDF4D1A2C66DB2F00C705DE /* Debug */,
+				CEDF4D1B2C66DB2F00C705DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEDF4D1C2C66DB2F00C705DE /* Build configuration list for PBXNativeTarget "DrewLocalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDF4D1D2C66DB2F00C705DE /* Debug */,
+				CEDF4D1E2C66DB2F00C705DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEDF4CE92C66DB2D00C705DE /* Project object */;
+}
