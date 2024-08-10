@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE69F1C52C67907F0051230A /* DappItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE69F1C42C67907F0051230A /* DappItem.swift */; };
+		CE69F1C72C67B2060051230A /* DappViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE69F1C62C67B2060051230A /* DappViewController.swift */; };
+		CE69F1C92C67BA1C0051230A /* DappItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE69F1C82C67BA1C0051230A /* DappItem.xib */; };
 		CEDF4CF52C66DB2D00C705DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDF4CF42C66DB2D00C705DE /* AppDelegate.swift */; };
 		CEDF4CF72C66DB2D00C705DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDF4CF62C66DB2D00C705DE /* ViewController.swift */; };
 		CEDF4CF92C66DB2F00C705DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEDF4CF82C66DB2F00C705DE /* Assets.xcassets */; };
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE69F1C42C67907F0051230A /* DappItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DappItem.swift; sourceTree = "<group>"; };
+		CE69F1C62C67B2060051230A /* DappViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DappViewController.swift; sourceTree = "<group>"; };
+		CE69F1C82C67BA1C0051230A /* DappItem.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DappItem.xib; sourceTree = "<group>"; };
 		CEDF4CF12C66DB2D00C705DE /* DrewLocal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrewLocal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEDF4CF42C66DB2D00C705DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEDF4CF62C66DB2D00C705DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -72,6 +78,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE69F1C32C6790660051230A /* CollectionItems */ = {
+			isa = PBXGroup;
+			children = (
+				CE69F1C42C67907F0051230A /* DappItem.swift */,
+				CE69F1C82C67BA1C0051230A /* DappItem.xib */,
+			);
+			path = CollectionItems;
+			sourceTree = "<group>";
+		};
 		CEDF4CE82C66DB2D00C705DE = {
 			isa = PBXGroup;
 			children = (
@@ -95,8 +110,10 @@
 		CEDF4CF32C66DB2D00C705DE /* DrewLocal */ = {
 			isa = PBXGroup;
 			children = (
+				CE69F1C32C6790660051230A /* CollectionItems */,
 				CEDF4CF42C66DB2D00C705DE /* AppDelegate.swift */,
 				CEDF4CF62C66DB2D00C705DE /* ViewController.swift */,
+				CE69F1C62C67B2060051230A /* DappViewController.swift */,
 				CEDF4CF82C66DB2F00C705DE /* Assets.xcassets */,
 				CEDF4CFA2C66DB2F00C705DE /* Main.storyboard */,
 				CEDF4CFD2C66DB2F00C705DE /* DrewLocal.entitlements */,
@@ -227,6 +244,7 @@
 			files = (
 				CEDF4CF92C66DB2F00C705DE /* Assets.xcassets in Resources */,
 				CEDF4CFC2C66DB2F00C705DE /* Base in Resources */,
+				CE69F1C92C67BA1C0051230A /* DappItem.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,7 +270,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEDF4CF72C66DB2D00C705DE /* ViewController.swift in Sources */,
+				CE69F1C52C67907F0051230A /* DappItem.swift in Sources */,
 				CEDF4CF52C66DB2D00C705DE /* AppDelegate.swift in Sources */,
+				CE69F1C72C67B2060051230A /* DappViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
