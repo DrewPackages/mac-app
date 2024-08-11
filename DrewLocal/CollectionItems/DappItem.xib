@@ -13,7 +13,7 @@
                 <rect key="frame" x="0.0" y="0.0" width="208" height="197"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="3aN-5M-dXx">
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="3aN-5M-dXx">
                         <rect key="frame" x="8" y="10" width="192" height="16"/>
                         <textFieldCell key="cell" lineBreakMode="clipping" alignment="center" title="dApp Name" id="KLU-p0-W3X">
                             <font key="font" metaFont="system"/>

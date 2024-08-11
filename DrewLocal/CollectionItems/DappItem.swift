@@ -15,5 +15,4 @@ class DappItem: NSCollectionViewItem {
     override func awakeFromNib() {
         view.wantsLayer = true
     }
-
 }

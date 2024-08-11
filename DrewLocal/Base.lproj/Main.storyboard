@@ -684,7 +684,7 @@
         <scene sceneID="R2V-B0-nI4">
             <objects>
                 <windowController id="B8D-0N-5wS" sceneMemberID="viewController">
-                    <window key="window" title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="IQv-IB-iLA">
+                    <window key="window" title="Drew Localhost" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="IQv-IB-iLA">
                         <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
                         <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
                         <rect key="contentRect" x="196" y="240" width="480" height="270"/>
@@ -706,17 +706,51 @@
             <objects>
                 <viewController id="XfG-lQ-9wD" customClass="ViewController" customModule="DrewLocal" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="m2S-Jp-Qdl">
-                        <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1070" height="200"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <scrollView wantsLayer="YES" autohidesScrollers="YES" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BPj-vf-eY8">
-                                <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
+                            <stackView distribution="fillProportionally" orientation="vertical" alignment="centerX" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZFW-ux-or6">
+                                <rect key="frame" x="0.0" y="130" width="1070" height="70"/>
+                                <subviews>
+                                    <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="9M8-jW-daP" userLabel="Title">
+                                        <rect key="frame" x="414" y="34" width="242" height="26"/>
+                                        <textFieldCell key="cell" lineBreakMode="clipping" title="Drew Localhost Frontend" id="kbU-8E-AjS">
+                                            <font key="font" textStyle="title1" name=".SFNS-Regular"/>
+                                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                    </textField>
+                                    <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" horizontalCompressionResistancePriority="745" translatesAutoresizingMaskIntoConstraints="NO" id="MSS-lH-lcc" userLabel="Description">
+                                        <rect key="frame" x="31" y="10" width="1008" height="16"/>
+                                        <textFieldCell key="cell" alignment="left" id="D4A-Zi-KAC">
+                                            <font key="font" metaFont="system"/>
+                                            <string key="placeholderString">Select the dApp you'd like to build a frontend for. We'll used Drew Package Manager to build the dependency for you, and help verify it's integrity with EAS attestation</string>
+                                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                    </textField>
+                                </subviews>
+                                <edgeInsets key="edgeInsets" left="10" right="10" top="10" bottom="10"/>
+                                <constraints>
+                                    <constraint firstItem="MSS-lH-lcc" firstAttribute="width" secondItem="ZFW-ux-or6" secondAttribute="width" multiplier="0.938318" id="KSn-2t-GyC"/>
+                                </constraints>
+                                <visibilityPriorities>
+                                    <integer value="1000"/>
+                                    <integer value="1000"/>
+                                </visibilityPriorities>
+                                <customSpacing>
+                                    <real value="3.4028234663852886e+38"/>
+                                    <real value="3.4028234663852886e+38"/>
+                                </customSpacing>
+                            </stackView>
+                            <scrollView wantsLayer="YES" autohidesScrollers="YES" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BPj-vf-eY8">
+                                <rect key="frame" x="0.0" y="0.0" width="1070" height="121"/>
                                 <clipView key="contentView" id="s4u-J6-fQX">
-                                    <rect key="frame" x="1" y="1" width="478" height="268"/>
+                                    <rect key="frame" x="1" y="1" width="1068" height="119"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <collectionView selectable="YES" id="pNu-SV-XCo">
-                                            <rect key="frame" x="0.0" y="0.0" width="478" height="158"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="1068" height="119"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
                                             <collectionViewFlowLayout key="collectionViewLayout" minimumInteritemSpacing="10" minimumLineSpacing="10" id="PJq-8X-2xY">
                                                 <size key="itemSize" width="50" height="50"/>
@@ -726,19 +760,22 @@
                                     </subviews>
                                 </clipView>
                                 <scroller key="horizontalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" horizontal="YES" id="G3a-wP-PjK">
-                                    <rect key="frame" x="1" y="253" width="478" height="16"/>
+                                    <rect key="frame" x="-100" y="-100" width="478" height="16"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </scroller>
-                                <scroller key="verticalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" doubleValue="1" horizontal="NO" id="Akt-Gy-uaQ">
-                                    <rect key="frame" x="234" y="1" width="15" height="143"/>
+                                <scroller key="verticalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" horizontal="NO" id="Akt-Gy-uaQ">
+                                    <rect key="frame" x="1053" y="1" width="16" height="119"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </scroller>
                             </scrollView>
                         </subviews>
                         <constraints>
+                            <constraint firstAttribute="trailing" secondItem="ZFW-ux-or6" secondAttribute="trailing" id="1Xf-fU-Lio"/>
                             <constraint firstItem="BPj-vf-eY8" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" id="2E9-7x-hwf"/>
+                            <constraint firstItem="ZFW-ux-or6" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" id="6Al-bz-LLz"/>
                             <constraint firstAttribute="trailing" secondItem="BPj-vf-eY8" secondAttribute="trailing" id="AEV-N4-AKj"/>
-                            <constraint firstItem="BPj-vf-eY8" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" id="OFQ-yi-x8P"/>
+                            <constraint firstItem="pNu-SV-XCo" firstAttribute="top" secondItem="ZFW-ux-or6" secondAttribute="bottom" constant="10" id="LTl-3r-dxK"/>
+                            <constraint firstItem="ZFW-ux-or6" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" id="Oc8-yN-Qge"/>
                             <constraint firstAttribute="bottom" secondItem="BPj-vf-eY8" secondAttribute="bottom" id="VqC-ZC-VnI"/>
                         </constraints>
                     </view>
@@ -748,6 +785,11 @@
                     </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+                <textFieldCell lineBreakMode="clipping" title="Label" id="BD0-fm-fGw">
+                    <font key="font" usesAppearanceFont="YES"/>
+                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                </textFieldCell>
             </objects>
             <point key="canvasLocation" x="75" y="655"/>
         </scene>
